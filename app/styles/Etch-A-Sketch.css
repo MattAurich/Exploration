@@ -1,0 +1,73 @@
+
+div {
+  border:1px solid black;
+}
+
+
+foo {
+  background-origin: content-box;
+  background: red;
+  margin: none;
+  border: none;
+
+  display: inline-block;
+}
+
+.hover {
+  background-color: blue !important;
+}
+
+
+#game-board {
+  width: 400px;
+  height: 400px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 0px;
+  display: block;
+}
+
+#game-board:before,
+#game-board:after {
+  display: table;
+  content: " ";
+}
+
+#game-board:after {
+  clear: both;
+}
+
+#game-board:before,
+#game-board:after {
+  display: table;
+  content: " ";
+}
+
+#game-board:after {
+  clear: both;
+}
+
+
+@media (min-width: 768px) {
+  #game-board {
+    width: 750px;
+    height: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  #game-board {
+    width: 970px;
+    height: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #game-board {
+    width: 1000px;
+    height: 1000px;
+  }
+}

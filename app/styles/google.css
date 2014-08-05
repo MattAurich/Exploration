@@ -1,0 +1,168 @@
+a
+{
+
+  margin:8px;
+  color: #404040;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.trcode
+{
+  align:right;
+  padding: 0 50px 0 0;
+}
+
+.gridgoogle
+{
+  clear:both;
+}
+
+.signin
+{
+  border:1px solid #4285f4;
+  background: #4285f4;
+  border-radius: 2px;
+  height: 30px;
+  width: 70px;
+  padding:0;
+  margin:0;
+}
+
+.button
+{
+  color:white;
+  font-size:13px;
+
+}
+
+.mainlogo
+{
+  padding-top: 140px
+}
+
+#newsearch
+{
+
+}
+.text-input
+{
+display: inline-block;
+margin-top: 30px;
+width: 540px;
+height: 30px;
+
+background-image: url('../images/googlemic.png');
+background-position: 510px;
+background-repeat: no-repeat;
+}
+
+
+.text-input input[type="text"]
+{
+  display: inline-block;
+  height: 30px;
+  width: 540px;
+  background-color: transparent;
+  border:1px solid #c0c0c0;
+
+
+}
+.text-input input[type="text"]:focus
+{
+  border:1px solid #4285F4;
+  outline:none;
+}
+
+
+.srches
+{
+  margin:3px;
+  padding:0;
+  left: 31%;
+}
+
+.srch:hover
+{
+  border: 1px solid #c0c0c0;
+  box-shadow: 0 1px 0 0 #c0c0c0;
+}
+.lucky:hover
+{
+  border: 1px solid #c0c0c0;
+  box-shadow: 0 1px 0 0 #c0c0c0;
+}
+.srch
+{
+  width: 100px;
+  height: 27px;
+  border: 1px solid #DDDDDD;
+  background: #f4f4f4;
+  font-weight: bold;
+  padding:0;
+  margin:0;
+  border-radius:2px;
+  text-decoration:none;
+
+}
+.srchbutton
+{
+  font-size: 11px;
+}
+.srchbutton:hover
+{
+  text-decoration:none;
+  color:#404040;
+}
+
+.lucky
+{
+  width: 115px;
+  height: 27px;
+  border: 1px solid #DDDDDD;
+  background: #f4f4f4;
+  font-weight: bold;
+  padding:0;
+  margin:0;
+  border-radius:2px;
+  text-decoration:none;
+  position:absolute;
+
+}
+.luckybutton
+{
+  font-size: 11px;
+}
+.luckybutton:hover
+{
+  text-decoration:none;
+  color:#404040;
+}
+
+.foot
+{
+  background-color: #F2F2F2;
+  position:absolute;
+  bottom:0;
+  height: 40px;
+  width:100%;
+  margin:0;
+  padding:0;
+  border: 1px solid #E4E4E4;
+}
+
+footer div a
+{
+  position:relative;
+  color: #66666E;
+  font-size:13px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+footer div div
+{
+  margin-top:10px;
+  position:absolute;
+
+}

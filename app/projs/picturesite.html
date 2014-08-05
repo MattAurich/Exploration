@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Picture Site</title>
+<link rel="stylesheet" href="../styles/picturesite.css" />
+</head>
+<body>
+	<div class = "container" ng-app = "showApp" ng-controller = "mainController">	
+		<a href ng-click = "goPic = !goPic" class = "small"><img src = "../images/crop.png" /></a>
+		<div class = "large box sample-show-hide" ng-show = "goPic" ><img ng-src = "../images/cowboy.jpg" /></div>
+	</div>
+
+
+
+	<script src="../scripts/angular.js"></script>
+	<script src="../scripts/angular-animate.js"></script>
+	<script src="../scripts/picturesite.js"></script>
+</body>
+</html>
+
+
+

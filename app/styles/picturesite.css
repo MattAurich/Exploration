@@ -1,0 +1,37 @@
+body {
+	position: relative;
+}
+a {
+
+}
+.small {
+	position: absolute;
+	top: 210px;
+	left:568px;
+
+	z-index: 100;
+}
+.small img {
+	border-radius: 815px/615px;
+}
+
+.large {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+}
+
+.large:hover {
+
+}
+
+
+
+.sample-show-hide {
+  -webkit-transition:all linear 1.5s;
+  transition:all linear 3.5s;
+}
+
+.sample-show-hide.ng-hide {
+  opacity:0;
+}
